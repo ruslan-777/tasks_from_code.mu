@@ -1,0 +1,198 @@
+//Массивы в JavaScript
+
+// let arr = ['a', 'b', 'c'];
+// alert(arr);
+// console.log(arr);
+
+// let arr = ['a', 'b', 'c'];
+// alert(arr[0]);
+// alert(arr[1]);
+// alert(arr[2]);
+
+// let arr = ['a', 'b', 'c', 'd'];
+// alert (arr[0] + arr[1] + arr[2] + arr[3]);
+
+// let arr2 = [1, 2, 3];
+// alert(arr2[0] + arr2[1] + arr2[2]);
+
+// let arr = [2, 5, 3, 9];
+// let result = arr[0] * arr[1] + arr[2] * arr[3];
+// alert(result);
+
+// let arr = [1, 4, 'a', 'e', 7, true];
+// alert(arr.length);
+
+// let arr = [1, 4, 'a', 'e', 7, true];
+// alert(arr[arr.length -1]);
+
+// let arr = ['a', 'b', 'c'];
+// arr[0] = 1;
+// arr[1] = -2;
+// arr[2] = -3;
+// console.log(arr);
+
+// let arr = [3, 5, 7, 2];
+// arr[0] += 3;
+// arr[1] += 3;
+// arr[2] += 3;
+// arr[3] += 3;
+// console.log(arr);
+
+// let arr = [1, 2, 3];
+// arr[0]++;
+// arr[1]++;
+// arr[2]++;
+// console.log(arr);
+
+// let arr = [];
+// arr[0] = 1;
+// arr[1] = 2;
+// arr[2] = 3;
+// console.log(arr);
+
+// let arr = [1, 2, 3];
+// arr[3] = 4;
+// arr[4] = 5;
+// console.log(arr);
+
+//Разреженный массив
+
+// let arr = [1, 2, 3];
+// arr[4] = 5;
+// console.log(arr);
+
+//Объекты в JavaScript
+
+// let obj = {1: 'пн', 2: 'вт', 3: 'ср', 4: 'чт',
+// 5: 'пт', 6: 'сб', 7: 'вс'}
+// console.log(obj[2], obj[1], obj[4]);
+// alert(obj[2] + obj[1] + obj[4]);
+
+// let obj = {1: 'a', 2: 'b', 3: 'c'};
+// alert(obj[1] + obj[2] + obj[3]);
+
+// Строковые ключи
+
+// let obj = {keyA: 1, keyB: 2, keyC: 3};
+// console.log(obj['keyA'] + obj['keyB'] + obj['keyC']);
+
+// let obj1 = {'1a': 1, '2b': 2, 'c-c': 3};
+// console.log(obj1['1a'] + obj1['2b'] + obj1['c-c']);
+
+// let obj = {'1a': 1, b2: 2, 'с-с': 3, d4: 4};
+// console.log(obj);
+
+// let obj = {key1: 'a', key2: 'b', key3: 'c'};
+// console.log(obj.key2);
+
+// let obj = {key1: 1, key2: 2, key3: 3};
+// console.log(obj.key1 + obj.key2 + obj.key3);
+
+// let obj = {'1a': 1, b2: 2, 'eee-': 3, d4: 4};
+// console.log(obj.b2, obj.d4);
+
+// let user = {name: 'Ivan ', surname: 'Ivanov ', patronymic: 'Ivanovich'};
+// alert(user.name + user.surname + user.patronymic);
+
+// let date = {year: ' 2019', month: ' November', day: ' 12'};
+// alert(date.year + date.month + date.day);
+// alert(date.day + date.month + date.year);
+
+//Заполнение
+
+// let obj = {};
+// obj.key1 = 4
+// obj.key2 = 'qwerty';
+// obj.key3 = true;
+// console.log(obj);
+
+// let obj1 = {};
+// obj1.a = 1;
+// obj1.b = 2;
+// obj1.c = 3;
+// console.log(obj1);
+
+// Ключи из переменных в JavaScript
+
+// let arr = ['a', 'b', 'c'];
+// let key = 2;
+// console.log(arr[key]);
+
+// let arr = [1, 2, 3, 4, 5];
+// let key1 = 1;
+// let key2 = 2;
+// console.log(arr[key1] + arr[key2]);
+
+//Ключи объектов
+
+// let obj = { 'a': 'Привет, ', 'b': 'мне ', 'c': 32 };
+// let key1 = 'a';
+// let key2 = 'b';
+// let key3 = 'c';
+// console.log(obj[key1] + obj[key2] + obj[key3]);
+
+//Нюансы объектов
+
+// let a = 'qwerty';
+// let obj = { a: 'eee', qwerty: 'ttt' };
+// console.log(obj[a]);
+// console.log(obj['a']);
+
+//Нюансы альтернативного синтаксиса объектов
+
+// let a = 785;
+// let obj = { a: 'Ruslan', 785: 999 };
+// console.log(obj.a);
+// console.log(obj[a]);
+// console.log(obj['a']);
+
+
+// Типизация массивов и объектов в JavaScript
+
+// let arr = ['1', 2 === 2, 3, null, undefined, Symbol];
+// console.log(typeof arr[0]);
+// console.log(typeof arr[1]);
+// console.log(typeof arr[2]);
+// console.log(typeof arr[3]);
+// console.log(typeof arr[4]);
+// console.log(typeof arr[5]);
+
+// Как определить массив ли объект
+
+// console.log(Array.isArray([1, 2, 3])); true
+// console.log(Array.isArray({ a: 1, b: 2, c: 3 })); false
+
+// Передача объектов по ссылке в JavaScript
+
+// let a = [1, 2, 3];
+// let b = a;
+// b[0] = '!!!';
+// console.log(a[0]);
+
+// let a = [1, 2, 3];
+// let b = a;
+// a = 7;
+// console.log(b, a);
+
+// let a = [1, 2, 3];
+// let b = a;
+// a = [3, 4, 5];
+// console.log(b);
+// console.log(a);
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// console.log(arr2); // ['a', 2, 3]
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[1] = 'b';
+// console.log(arr1); // ['a', 'b', 3]
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[0] = 'b';
+// console.log(arr2); //['b', '2', 3]
