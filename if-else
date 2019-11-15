@@ -188,3 +188,15 @@ console.log('no');
 // console.log('no');
 // }
 
+// Сокращенный синтаксис if-else в JavaScript
+
+// let test = 10;
+// if (test == 10) {
+// console.log('yes');
+// }
+
+// let test = 5;
+// if (test == 0)
+// console.log('yes');
+// else
+// console.log('no');
