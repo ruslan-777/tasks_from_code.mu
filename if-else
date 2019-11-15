@@ -1,1 +1,190 @@
+// Сложные условия в if-else в JavaScript
+
+// let num = 4;
+
+// if (num > 0 && num < 5) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let num = 15;
+
+// if (num >= 10 && num <= 20) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let num1 = 1;
+// let num2 = 3;
+// if (num1 <= 1 && num2 >= 3) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+let num1 = 6;
+let num2 = 3;
+if (num1 <= 1 || num2 >= 3) {
+console.log('yes');
+} else {
+console.log('no');
+}
+
+// Конструкция if-else в JavaScript
+
+// let num = 4;
+
+// if ((num > 0 && num < 5) || (num > 10 && num < 20)) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let num = 3;
+
+// if ((num > 5 && num < 10) || (num == 20)) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let num = 3;
+
+// if (num > 5 || (num > 0 && num < 3)) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let num = 9;
+
+// if (num === '9' || (num >= 9 && num < 20) || (num > 20 && num < 30)) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+/ Инвертирование высказываний в if-else
+
+// let num = 9;
+
+// if (!num >= 9 && num < 0) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let num1 = 0;
+// let num2 = 10;
+
+// if (!(num1 >= 0 && num2 <= 10)) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// Конструкция if-else и булевы значения
+
+// let test = true;
+
+// if (test == true && test == false) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = 1;
+
+// if (test == true) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = 0;
+
+// if (test == true) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = 1;
+
+// if (test == false) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = 1;
+
+// if (test != true) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = NaN;
+
+// if (test == true) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = NaN;
+
+// if (test == false) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = '';
+
+// if (test == false) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test; // undefined
+
+// if (test == true) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = 3 * 'a'; // NaN false
+
+// if (test == true) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = true;
+// if (test) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = true;
+// if (!test) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
+
+// let test = false;
+// if (!test) {
+// console.log('yes');
+// } else {
+// console.log('no');
+// }
 
